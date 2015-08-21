@@ -4,7 +4,7 @@
   <title><![CDATA[SkyZhao's Blog]]></title>
   <link href="http://skyzhao3q.github.io/atom.xml" rel="self"/>
   <link href="http://skyzhao3q.github.io/"/>
-  <updated>2015-08-20T11:51:35+09:00</updated>
+  <updated>2015-08-22T02:09:12+09:00</updated>
   <id>http://skyzhao3q.github.io/</id>
   <author>
     <name><![CDATA[SkyZhao]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress ブログ@githubの構築と投稿について]]></title>
+    <link href="http://skyzhao3q.github.io/blog/2015/08/22/octopress-burogu-at-githubfalsegou-zhu-totou-gao-nituite/"/>
+    <updated>2015-08-22T02:03:20+09:00</updated>
+    <id>http://skyzhao3q.github.io/blog/2015/08/22/octopress-burogu-at-githubfalsegou-zhu-totou-gao-nituite</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Title]]></title>

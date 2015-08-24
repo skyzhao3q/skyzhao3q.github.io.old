@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Virtualbox | SkyZhao's Blog]]></title>
+  <link href="http://devskyzhao.com/blog/categories/virtualbox/atom.xml" rel="self"/>
+  <link href="http://devskyzhao.com/"/>
+  <updated>2015-08-24T11:58:28+09:00</updated>
+  <id>http://devskyzhao.com/</id>
+  <author>
+    <name><![CDATA[SkyZhao]]></name>
+    <email><![CDATA[skyzhaoi3q@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[【Virtual Box】共有フォルダ作成]]></title>
+    <link href="http://devskyzhao.com/blog/2015/08/24/set-share-folder-on-virtualbox/"/>
+    <updated>2015-08-24T11:18:15+09:00</updated>
+    <id>http://devskyzhao.com/blog/2015/08/24/set-share-folder-on-virtualbox</id>
+    <content type="html"><![CDATA[<h2>【環境】</h2>
+
+<ul>
+<li>ホスト側OS: WIN7(64bit)</li>
+<li>ゲスト側OS: Ubuntu(vboxadditionインストール済)</li>
+<li>仮想ソフト: VirtualBox　</li>
+</ul>
+
+
+<h2>1. ホストにて</h2>
+
+<p>共有フォルダを用意する。
+たとえば、ディスクストップに<code>Ubuntu</code>というフォルダを作成しておく。</p>
+
+<h2>2. VirtualBoxにて</h2>
+
+<p>設定　→　共有フォルダ　→　<code>+</code>(フォルダ追加)
+* 自動マウント　→　☑
+* 永続化する　→　☑</p>
+
+<h2>3. ゲストにて</h2>
+
+<pre><code class="bash"># 新規共有フォルダ
+$ sudo mkdir /mnt/Ubuntu
+$ sudo chmod 777 /mnt/Ubuntu
+# 確認
+$ ls -ld /mnt/Ubuntu
+# 共有フォルダのひも付け
+$ sudo mount -t vboxsf Ubuntu /mnt/Ubuntu
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

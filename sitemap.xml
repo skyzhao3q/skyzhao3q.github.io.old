@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://skyzhao3q.github.io/blog/2015/08/22/octopress-burogu-at-githubfalsegou-zhu-totou-gao-nituite/</loc>
+    <loc>http://devskyzhao.com/blog/2015/08/24/set-share-folder-on-virtualbox/</loc>
+    <lastmod>2015-08-24T11:18:15+09:00</lastmod>
+  </url>
+  <url>
+    <loc>http://devskyzhao.com/blog/2015/08/22/octopress-burogu-at-githubfalsegou-zhu-totou-gao-nituite/</loc>
     <lastmod>2015-08-22T02:03:20+09:00</lastmod>
   </url>
   <url>
-    <loc>http://skyzhao3q.github.io/blog/2015/08/07/title/</loc>
+    <loc>http://devskyzhao.com/blog/2015/08/07/title/</loc>
     <lastmod>2015-08-07T13:04:14+09:00</lastmod>
   </url>
   <url>
-    <loc>http://skyzhao3q.github.io/blog/archives/</loc>
+    <loc>http://devskyzhao.com/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://skyzhao3q.github.io/</loc>
+    <loc>http://devskyzhao.com/</loc>
+  </url>
+  <url>
+    <loc>http://devskyzhao.com/blog/categories/virtualbox/</loc>
   </url>
 </urlset>
